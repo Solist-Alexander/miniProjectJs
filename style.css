@@ -1,0 +1,112 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body{
+    background: aliceblue;
+}
+
+.div_users {
+    display: grid;
+    margin-left: 320px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+
+.div_user {
+    margin-top: 30px;
+    padding: 20px;
+    height: 100px;
+    width: 260px;
+    border: 2px solid grey;
+    position: relative;
+
+}
+
+.button_user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 70px;
+    border: 2px solid grey;
+    background: beige;
+    right: 80px;
+    height: 50px;
+    width: 100px;
+    transition: background 0.5s ease;
+
+}
+.button_user:hover{
+    background: blanchedalmond;
+    transition: background 0.5s ease;
+}
+
+.div_details{
+    border: 2px solid grey;
+}
+.p_user_info{
+    margin: 0;
+}
+.text_user_info{
+    margin-bottom: 0;
+}
+.h1_user_info{
+    text-align: center;
+}
+.button_post{
+    margin: 0 auto;
+    width: 90%;
+    height: 40px;
+    display: block;
+}
+.main_div_post{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+.div_post{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 230px;
+    height: 100px;
+    border: 2px solid grey;
+    position: relative;
+}
+.button_post_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 75px;
+    border: 2px solid grey;
+    background: beige;
+    right: 60px;
+    height: 50px;
+    width: 100px;
+}
+.block_post{
+    margin: 0 auto;
+    border: 2px solid grey;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+.div_post_details{
+    border: 2px solid grey;
+}
+.main_div_post_details{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
